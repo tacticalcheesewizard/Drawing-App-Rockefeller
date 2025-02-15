@@ -94,7 +94,7 @@ function start_script(){
     // initial pen color
     ctx.strokeStyle = PEN_COLOR;
     // initial canvas background
-    canvas.style.backgroundColor = BG_COLOR;
+    canvas.style.backgroundColor = arena_map.png;
 
     // -------------------------------------------------------------
     // DEFINING UTILITY FUNCTIONS
