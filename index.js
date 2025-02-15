@@ -68,7 +68,7 @@ function start_script(){
     let mouse_coords = null;
     let is_drawing = false;
     let choice = "Brush";
-    const BG_COLOR = "#ffffff";
+    const BG_COLOR = arena_map.png;
     const PEN_COLOR = "#000000";
 
     // Display the initial Values of pen and its size
@@ -94,7 +94,7 @@ function start_script(){
     // initial pen color
     ctx.strokeStyle = PEN_COLOR;
     // initial canvas background
-    canvas.style.backgroundColor = arena_map.png;
+    canvas.style.backgroundColor = BG_COLOR;
 
     // -------------------------------------------------------------
     // DEFINING UTILITY FUNCTIONS
